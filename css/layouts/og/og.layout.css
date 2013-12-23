@@ -1,0 +1,44 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/s201312191403\/sites\/all\/themes\/schemax_omega\/sass\/layouts\/og\/og\.layout\.scss}line{font-family:\0000324}}
+body {
+  background: pink; }
+
+@media (min-width: 60em) and (max-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/s201312191403\/sites\/all\/themes\/schemax_omega\/sass\/layouts\/og\/og\.layout\.scss}line{font-family:\0000336}}
+  body {
+    background: red; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/s201312191403\/sites\/all\/themes\/schemax_omega\/sass\/layouts\/og\/og\.layout\.scss}line{font-family:\0000347}}
+.l-page {
+  margin: 0 auto; }
+  @media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/s201312191403\/sites\/all\/themes\/schemax_omega\/sass\/layouts\/og\/og\.layout\.scss}line{font-family:\0000347}}
+    .l-page {
+      width: 44em; } }
+  @media (min-width: 80em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/s201312191403\/sites\/all\/themes\/schemax_omega\/sass\/layouts\/og\/og\.layout\.scss}line{font-family:\0000347}}
+    .l-page {
+      width: 80em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/s201312191403\/sites\/all\/themes\/schemax_omega\/sass\/layouts\/og\/og\.layout\.scss}line{font-family:\0000358}}
+.l-page {
+  margin: 0 auto; }
+  @media (min-width: 80em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/s201312191403\/sites\/all\/themes\/schemax_omega\/sass\/layouts\/og\/og\.layout\.scss}line{font-family:\0000361}}
+    .l-page p {
+      font-size: 1.8em; } }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/s201312191403\/sites\/all\/themes\/schemax_omega\/sass\/layouts\/og\/og\.layout\.scss}line{font-family:\0000369}}
+  .l-region--sidebar-first {
+    width: 23.40426%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/s201312191403\/sites\/all\/themes\/schemax_omega\/sass\/layouts\/og\/og\.layout\.scss}line{font-family:\0000373}}
+  .l-content {
+    width: 74.46809%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; } }
