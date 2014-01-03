@@ -1,0 +1,24 @@
+/**
+ * $SITE-BRANDING
+ */
+.l-branding {
+  padding: 1em 0;
+  @include clearfix(true);
+}
+
+.l-branding #site-name,
+.l-branding #logo {
+  display: block;
+  float: left;
+}
+
+.l-branding #site-name {
+  padding: 0.5em;
+}
+
+.l-branding #logo img {
+  max-height: 2em;
+  @include breakpoint($tab){
+    max-height: 4em;
+  }
+}

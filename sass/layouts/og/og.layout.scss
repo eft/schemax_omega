@@ -21,29 +21,6 @@
 //@import "base/**/*";
 //@import "components/**/*";
 
-body {
-  background: pink;
-}
-
-@include breakpoint($tab){
-  body {
-    //    background: green;
-  }
-
-}
-
-@include breakpoint($between){
-  body {
-    background: red;
-  }
-}
-
-@include breakpoint($desk){
-  body {
-    //    background: blue;
-  }
-}
-
 .l-page {
   margin: 0 auto;
   @include breakpoint($tab){
@@ -54,7 +31,6 @@ body {
   }
 }
 
-
 .l-page {
   margin: 0 auto;
   @include breakpoint($desk){
@@ -64,7 +40,7 @@ body {
   }
 }
 
-@include breakpoint($tab){
+@include breakpoint(3000px){
 
   .l-region--sidebar-first {
     @include grid-span(3,10);
@@ -72,4 +48,5 @@ body {
 
   .l-content {
     @include grid-span(9,1);
-  }}
+  }
+}
