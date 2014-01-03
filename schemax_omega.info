@@ -19,6 +19,12 @@ stylesheets[all][] = css/schemax-omega.no-query.css
 scripts[] = js/schemax-omega.behaviors.js
 
 ; ========================================
+; Layout
+; ========================================
+layout[og][stylesheets][all][] = css/layouts/og/schemax_omega.og.layout.css
+layout[everywhere][stylesheets][all][] = css/layouts/everywhere/schemax_omega.everywhere.layout.css
+
+; ========================================
 ; Settings
 ; ========================================
 settings[toggle_logo] = 1
@@ -32,27 +38,19 @@ settings[toggle_main_menu] = 1
 settings[toggle_secondary_menu] = 1
 settings[omega_toggle_front_page_content] = 1
 settings[default_logo] = 1
-settings[logo_path] = public://ladnerfc-logo-without-name-50x46.png
+settings[logo_path] = ""
 settings[logo_upload] = ""
-settings[default_favicon] = 0
-settings[favicon_path] = public://favicon.ico
+settings[default_favicon] = 1
+settings[favicon_path] = ""
+settings[favicon_upload] = ""
 settings[omega_enable_warning] = 1
-settings[omega_toggle_extension_development] = 1
-settings[omega_rebuild_theme_registry] = 0
-settings[omega_rebuild_aggregates] = 0
-settings[omega_browser_width_indicator] = 0
-settings[omega_livereload] = 1
-settings[omega_livereload_script] = http://spike.schemax.com:35729/livereload.js
-settings[omega_livereload_host] = spike.schemax.com
-settings[omega_livereload_port] = 35729
-settings[omega_demo_regions] = 0
-settings[omega_toggle_extension_layouts] = 1
-settings[omega_layout] = hero
 settings[omega_toggle_extension_assets] = 1
 settings[omega_libraries][selectivizr][status] = 0
 settings[omega_libraries][respond][status] = 0
 settings[omega_libraries][pie][status] = 0
 settings[omega_libraries][html5shiv][status] = 1
+settings[omega_toggle_extension_layouts] = 0
+settings[omega_layout] = hero
 settings[omega_toggle_extension_compatibility] = 1
 settings[omega_conditional_classes_html] = 1
 settings[omega_apple_touch] = 1
@@ -64,14 +62,12 @@ settings[omega_viewport_user_scaleable] = 1
 settings[omega_chrome_edge] = 1
 settings[omega_chrome_popup] = 0
 settings[omega_chrome_notice] = 0
-settings[favicon_mimetype] = image/vnd.microsoft.icon
-
-; Layout Styles
-layout[og][stylesheets][all][] = css/layouts/og/schemax_omega.og.layout.css
-layout[everywhere][stylesheets][all][] = css/layouts/everywhere/schemax_omega.everywhere.layout.css
-
-; Breakpoints (for Picture module)
-breakpoints[mobile] = (min-width: 0px)
-breakpoints[narrow] = (min-width: 560px)
-breakpoints[wide] = (min-width: 851px)
-breakpoints[tv] = only screen and (min-width: 3456px)
+settings[omega_toggle_extension_development] = 1
+settings[omega_rebuild_theme_registry] = 0
+settings[omega_rebuild_aggregates] = 0
+settings[omega_browser_width_indicator] = 0
+settings[omega_livereload] = 1
+settings[omega_livereload_script] = http://spike.schemax.com:35729/livereload.js
+settings[omega_livereload_host] = spike.schemax.com
+settings[omega_livereload_port] = 35729
+settings[omega_demo_regions] = 0
