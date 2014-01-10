@@ -22,24 +22,63 @@
 //@import "components/**/*";
 
 .l-page {
+  width: 95%;
+  max-width: 110em;
   margin: 0 auto;
-  @include breakpoint($tab){
-    width: 0.90*$tab;
-  }
-  @include breakpoint($desk){
-    width: 0.90*$desk;
-  }
 }
 
-@include breakpoint($tab){
+.l-header {
+  background-color: $light-blue;
+}
+.l-content {
+  background-color: $mid-grey;
+}
+.l-footer {
+  background-color: $dark-blue;
+}
+
+.l-header,
+.l-main {
+  @include pie-clearfix;
+  margin-bottom: $vert-spacing-unit;
+}
+
+@include breakpoint($tab) {
+  /* Header Area */
+  .l-branding {
+    @include grid-span(1, 1);
+  }
+  .l-region--header {
+    @include grid-span(1, 2);
+  }
+  .l-region--navigation {
+    clear: both;
+  }
+
+  /* Content Area */
   .l-content {
-    @include grid-span(12,1);
+    @include grid-span(2, 1);
   }
 }
 
-@include breakpoint($desk){
+@include breakpoint($desk, true) {
+  /* Header Area */
+  .l-header {
+    @include pie-clearfix;
+  }
+  .l-branding {
+    @include grid-span(1, 1);
+  }
+  .l-region--header {
+    @include grid-span(2, 2);
+  }
+  .l-region--navigation {
+    clear: both;
+  }
 
+  /* Content Area */
   .l-content {
-    @include grid-span(12,1);
+    @include grid-span(1, 1);
   }
 }
+

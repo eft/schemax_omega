@@ -21,32 +21,3 @@
 //@import "base/**/*";
 //@import "components/**/*";
 
-.l-page {
-  margin: 0 auto;
-  @include breakpoint($tab){
-    width: $tab;
-  }
-  @include breakpoint($desk){
-    width: $desk;
-  }
-}
-
-.l-page {
-  margin: 0 auto;
-  @include breakpoint($desk){
-    p {
-      font-size: 1.8em;
-    }
-  }
-}
-
-@include breakpoint(3000px){
-
-  .l-region--sidebar-first {
-    @include grid-span(3,10);
-  }
-
-  .l-content {
-    @include grid-span(9,1);
-  }
-}

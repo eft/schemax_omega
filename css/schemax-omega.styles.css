@@ -1,42 +1,43 @@
 @import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,700);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
-.l-branding, .pager, .site-branding {
+.pager, .site-branding {
   /* for IE 6/7 */
   *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
   /* non-JS fallback */
   *zoom: 1;
 }
-.l-branding:before, .pager:before, .site-branding:before, .l-branding:after, .pager:after, .site-branding:after {
+.pager:before, .site-branding:before, .pager:after, .site-branding:after {
   content: ".";
   display: block;
   height: 0;
   overflow: hidden;
 }
-.l-branding:after, .pager:after, .site-branding:after {
+.pager:after, .site-branding:after {
   clear: both;
 }
 
-.l-branding, .pager, .site-branding {
+.pager, .site-branding {
   /* for IE 6/7 */
   *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
   /* non-JS fallback */
   *zoom: 1;
 }
-.l-branding:before, .pager:before, .site-branding:before, .l-branding:after, .pager:after, .site-branding:after {
+.pager:before, .site-branding:before, .pager:after, .site-branding:after {
   content: ".";
   display: block;
   height: 0;
   overflow: hidden;
 }
-.l-branding:after, .pager:after, .site-branding:after {
+.pager:after, .site-branding:after {
   clear: both;
 }
 
 /**
  * $SITE-BRANDING
  */
-.l-branding {
+/*.l-branding {
   padding: 1em 0;
+  @include clearfix(true);
 }
 
 .l-branding #site-name,
@@ -51,13 +52,10 @@
 
 .l-branding #logo img {
   max-height: 2em;
-}
-@media (min-width: 700px) {
-  .l-branding #logo img {
+  @include breakpoint($tab){
     max-height: 4em;
   }
-}
-
+}*/
 img, media {
   max-width: 100%;
   height: auto;
@@ -414,7 +412,7 @@ and open the template in the editor.
  */
 .messages {
   padding-left: 10px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .messages--status {
@@ -522,4 +520,70 @@ and open the template in the editor.
 }
 .site-branding__name:hover {
   color: #064771;
+}
+
+head {
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 99;
+  color: #333;
+  text-shadow: 0 0 3px #fff;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+head::before {
+  content: "||||";
+  display: block;
+  padding: 10px 14px;
+  letter-spacing: -1;
+  font-family: sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+head:hover {
+  color: #333;
+  text-shadow: 1px 1px #fff;
+}
+head:hover ~ body .l-page {
+  position: relative;
+}
+head:hover ~ .l-page::after,
+head:hover ~ body .l-page::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)));
+  background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 100%);
+  background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 100%);
+  background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 100%);
+  background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 100%);
+}
+@media (min-width: 700px) {
+  head:hover ~ .l-page::after,
+  head:hover ~ body .l-page::after {
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(61.98347%, rgba(210, 105, 30, 0.5)), color-stop(61.98347%, rgba(210, 105, 30, 0.25)), color-stop(62.80992%, rgba(210, 105, 30, 0.25)), color-stop(62.80992%, rgba(210, 105, 30, 0.5)), color-stop(100.0%, rgba(210, 105, 30, 0.5)), color-stop(100.0%, rgba(210, 105, 30, 0.25)), color-stop(100.82645%, rgba(210, 105, 30, 0.25)));
+    background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 61.98347%, rgba(210, 105, 30, 0.25) 61.98347%, rgba(210, 105, 30, 0.25) 62.80992%, rgba(210, 105, 30, 0.5) 62.80992%, rgba(210, 105, 30, 0.5) 100.0%, rgba(210, 105, 30, 0.25) 100.0%, rgba(210, 105, 30, 0.25) 100.82645%);
+    background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 61.98347%, rgba(210, 105, 30, 0.25) 61.98347%, rgba(210, 105, 30, 0.25) 62.80992%, rgba(210, 105, 30, 0.5) 62.80992%, rgba(210, 105, 30, 0.5) 100.0%, rgba(210, 105, 30, 0.25) 100.0%, rgba(210, 105, 30, 0.25) 100.82645%);
+    background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 61.98347%, rgba(210, 105, 30, 0.25) 61.98347%, rgba(210, 105, 30, 0.25) 62.80992%, rgba(210, 105, 30, 0.5) 62.80992%, rgba(210, 105, 30, 0.5) 100.0%, rgba(210, 105, 30, 0.25) 100.0%, rgba(210, 105, 30, 0.25) 100.82645%);
+    background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 61.98347%, rgba(210, 105, 30, 0.25) 61.98347%, rgba(210, 105, 30, 0.25) 62.80992%, rgba(210, 105, 30, 0.5) 62.80992%, rgba(210, 105, 30, 0.5) 100.0%, rgba(210, 105, 30, 0.25) 100.0%, rgba(210, 105, 30, 0.25) 100.82645%);
+  }
+}
+@media (min-width: 1250px) {
+  head:hover ~ .l-page::after,
+  head:hover ~ body .l-page::after {
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(50.33557%, rgba(210, 105, 30, 0.5)), color-stop(50.33557%, rgba(210, 105, 30, 0.25)), color-stop(51.00671%, rgba(210, 105, 30, 0.25)), color-stop(51.00671%, rgba(210, 105, 30, 0.5)), color-stop(81.20805%, rgba(210, 105, 30, 0.5)), color-stop(81.20805%, rgba(210, 105, 30, 0.25)), color-stop(81.87919%, rgba(210, 105, 30, 0.25)), color-stop(81.87919%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.25)), color-stop(100.67114%, rgba(210, 105, 30, 0.25)));
+    background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 50.33557%, rgba(210, 105, 30, 0.25) 50.33557%, rgba(210, 105, 30, 0.25) 51.00671%, rgba(210, 105, 30, 0.5) 51.00671%, rgba(210, 105, 30, 0.5) 81.20805%, rgba(210, 105, 30, 0.25) 81.20805%, rgba(210, 105, 30, 0.25) 81.87919%, rgba(210, 105, 30, 0.5) 81.87919%, rgba(210, 105, 30, 0.5) 100%, rgba(210, 105, 30, 0.25) 100%, rgba(210, 105, 30, 0.25) 100.67114%);
+    background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 50.33557%, rgba(210, 105, 30, 0.25) 50.33557%, rgba(210, 105, 30, 0.25) 51.00671%, rgba(210, 105, 30, 0.5) 51.00671%, rgba(210, 105, 30, 0.5) 81.20805%, rgba(210, 105, 30, 0.25) 81.20805%, rgba(210, 105, 30, 0.25) 81.87919%, rgba(210, 105, 30, 0.5) 81.87919%, rgba(210, 105, 30, 0.5) 100%, rgba(210, 105, 30, 0.25) 100%, rgba(210, 105, 30, 0.25) 100.67114%);
+    background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 50.33557%, rgba(210, 105, 30, 0.25) 50.33557%, rgba(210, 105, 30, 0.25) 51.00671%, rgba(210, 105, 30, 0.5) 51.00671%, rgba(210, 105, 30, 0.5) 81.20805%, rgba(210, 105, 30, 0.25) 81.20805%, rgba(210, 105, 30, 0.25) 81.87919%, rgba(210, 105, 30, 0.5) 81.87919%, rgba(210, 105, 30, 0.5) 100%, rgba(210, 105, 30, 0.25) 100%, rgba(210, 105, 30, 0.25) 100.67114%);
+    background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 50.33557%, rgba(210, 105, 30, 0.25) 50.33557%, rgba(210, 105, 30, 0.25) 51.00671%, rgba(210, 105, 30, 0.5) 51.00671%, rgba(210, 105, 30, 0.5) 81.20805%, rgba(210, 105, 30, 0.25) 81.20805%, rgba(210, 105, 30, 0.25) 81.87919%, rgba(210, 105, 30, 0.5) 81.87919%, rgba(210, 105, 30, 0.5) 100%, rgba(210, 105, 30, 0.25) 100%, rgba(210, 105, 30, 0.25) 100.67114%);
+  }
 }
