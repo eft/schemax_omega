@@ -4,18 +4,17 @@
   margin: 0 auto;
 }
 
+/*
 .l-header {
-  background-color: #52b1ea;
+  background-color: $light-blue;
 }
-
 .l-content {
-  background-color: #6a7076;
+  background-color: $mid-grey;
 }
-
 .l-footer {
-  background-color: #064771;
+  background-color: $dark-blue;
 }
-
+*/
 .l-header,
 .l-main {
   *zoom: 1;
