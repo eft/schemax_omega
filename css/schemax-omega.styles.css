@@ -261,6 +261,36 @@ mark,
   border-radius: 10px;
 }
 
+/**
+ * $NAV-BAR
+ */
+.pane-page-primary-links {
+  background-color: 000;
+}
+.pane-page-primary-links a {
+  display: block;
+  padding: 1.2em 1em;
+  font-size: 16px;
+  font-size: 1.14286rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+}
+.pane-page-primary-links a:hover, .pane-page-primary-links a:focus {
+  color: #064771;
+}
+@media (min-width: 1024) {
+  .pane-page-primary-links a {
+    font-size: 18px;
+    font-size: 1.28571rem;
+    border-left: 1px solid #fff;
+  }
+  .pane-page-primary-links li:last-child a {
+    border-right: 1px solid #fff;
+  }
+}
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates

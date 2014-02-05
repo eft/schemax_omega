@@ -11,10 +11,11 @@
 .l-content {
   background-color: $mid-grey;
 }
-.l-footer {
-  background-color: $dark-blue;
-}
 */
+.l-footer {
+  background-color: #000;
+}
+
 .l-header,
 .l-main {
   *zoom: 1;
