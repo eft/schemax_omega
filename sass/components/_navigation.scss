@@ -3,7 +3,7 @@
  */
 .pane-page-primary-links {
 
-  background-color: 000;
+  background-color: #000;
 
   a {
     display: block;
@@ -16,7 +16,7 @@
     background-color: #000;
 
     &:hover,
-    &:focus {
+      &:focus {
       color: $dark-blue;
     }
   }
@@ -31,3 +31,54 @@
     }
   }
 }
+
+/**
+ * $TEAM-NAV
+ */
+.pane-menu-menu-team-menu {
+
+  background-color: #333;
+
+  a {
+    display: block;
+    padding: 1em 0.8em;
+
+    @include font-size(12px);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+
+    &:hover,
+      &:focus {
+      color: $dark-blue;
+    }
+  }
+
+  @include breakpoint(1024, true) {
+    a {
+      @include font-size(12px);
+      border-left: 1px solid #fff;
+    }
+    li:last-child a {
+      border-right: 1px solid #fff;
+    }
+  }
+
+  .menu {
+    list-style-type:none;
+    padding:1px;
+    margin:0;
+    overflow:hidden;
+    > li{
+      display:block;
+      float:left;
+      &:last-child{
+        margin-right:0px;
+      }
+    }
+
+
+  }
+}
+

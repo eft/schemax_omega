@@ -31,18 +31,18 @@
 @media (min-width: 700px) {
   /* Header Area */
   .l-branding {
-    width: 61.98347%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
     clear: none;
   }
 
   .l-region--header {
-    width: 37.19008%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 133.33333%;
     clear: none;
   }
 
@@ -52,10 +52,10 @@
 
   /* Content Area */
   .l-content {
-    width: 100.0%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
+    width: 233.33333%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
     clear: none;
   }
 }
@@ -71,18 +71,18 @@
   }
 
   .l-branding {
-    width: 50.33557%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
     clear: none;
   }
 
   .l-region--header {
-    width: 48.99329%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
+    width: 233.33333%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 133.33333%;
     clear: none;
   }
 
@@ -92,10 +92,10 @@
 
   /* Content Area */
   .l-content {
-    width: 50.33557%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
     clear: none;
   }
 }

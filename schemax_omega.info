@@ -25,6 +25,11 @@ layout[og][stylesheets][all][] = css/layouts/og/schemax_omega.og.layout.css
 layout[everywhere][stylesheets][all][] = css/layouts/everywhere/schemax_omega.everywhere.layout.css
 
 ; ========================================
+; Plugins
+; ========================================
+plugins[panels][layouts] = panels/layouts
+
+; ========================================
 ; Settings
 ; ========================================
 settings[toggle_logo] = 1
