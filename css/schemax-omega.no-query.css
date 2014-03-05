@@ -258,10 +258,10 @@ mark,
 /**
  * $NAV-BAR
  */
-.pane-page-primary-links {
+.pane-menu-schemax-sports-menu {
   background-color: #000;
 }
-.pane-page-primary-links a {
+.pane-menu-schemax-sports-menu a {
   display: block;
   padding: 1.2em 1em;
   font-size: 16px;
@@ -271,25 +271,47 @@ mark,
   color: #fff;
   background-color: #000;
 }
-.pane-page-primary-links a:hover, .pane-page-primary-links a:focus {
+.pane-menu-schemax-sports-menu a:hover, .pane-menu-schemax-sports-menu a:focus {
   color: #064771;
 }
-.pane-page-primary-links a {
+.pane-menu-schemax-sports-menu a {
   font-size: 18px;
   font-size: 1.28571rem;
   border-left: 1px solid #fff;
 }
-.pane-page-primary-links li:last-child a {
+.pane-menu-schemax-sports-menu li:last-child a {
   border-right: 1px solid #fff;
+}
+
+/**
+ * $SECONDARY-LINKS
+ */
+.pane-menu-schemax-base-menu {
+  float: right;
+}
+.pane-menu-schemax-base-menu a {
+  display: block;
+  padding: 1em 0.8em;
+  font-size: 11px;
+  font-size: 0.78571rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+.pane-menu-schemax-base-menu a:hover, .pane-menu-schemax-base-menu a:focus {
+  color: #064771;
 }
 
 /**
  * $TEAM-NAV
  */
-.pane-menu-menu-team-menu {
+.pane-menu-schemax-team-menu {
   background-color: #333;
 }
-.pane-menu-menu-team-menu a {
+.pane-menu-schemax-team-menu .active {
+  border-bottom: #fff solid 2px;
+}
+.pane-menu-schemax-team-menu a {
   display: block;
   padding: 1em 0.8em;
   font-size: 12px;
@@ -299,29 +321,16 @@ mark,
   color: #fff;
   background-color: #333;
 }
-.pane-menu-menu-team-menu a:hover, .pane-menu-menu-team-menu a:focus {
+.pane-menu-schemax-team-menu a:hover, .pane-menu-schemax-team-menu a:focus {
   color: #064771;
 }
-.pane-menu-menu-team-menu a {
+.pane-menu-schemax-team-menu a {
   font-size: 12px;
   font-size: 0.85714rem;
   border-left: 1px solid #fff;
 }
-.pane-menu-menu-team-menu li:last-child a {
+.pane-menu-schemax-team-menu li:last-child a {
   border-right: 1px solid #fff;
-}
-.pane-menu-menu-team-menu .menu {
-  list-style-type: none;
-  padding: 1px;
-  margin: 0;
-  overflow: hidden;
-}
-.pane-menu-menu-team-menu .menu > li {
-  display: block;
-  float: left;
-}
-.pane-menu-menu-team-menu .menu > li:last-child {
-  margin-right: 0px;
 }
 
 /*
@@ -344,6 +353,48 @@ and open the template in the editor.
   float: left;
 }
 .links > li:last-child {
+  margin-right: 0px;
+}
+
+.pane-menu-schemax-base-menu .menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.pane-menu-schemax-base-menu .menu > li {
+  display: block;
+  float: left;
+}
+.pane-menu-schemax-base-menu .menu > li:last-child {
+  margin-right: 0px;
+}
+
+.pane-menu-schemax-sports-menu .menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.pane-menu-schemax-sports-menu .menu > li {
+  display: block;
+  float: left;
+}
+.pane-menu-schemax-sports-menu .menu > li:last-child {
+  margin-right: 0px;
+}
+
+.pane-menu-schemax-team-menu .menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.pane-menu-schemax-team-menu .menu > li {
+  display: block;
+  float: left;
+}
+.pane-menu-schemax-team-menu .menu > li:last-child {
   margin-right: 0px;
 }
 

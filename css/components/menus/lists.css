@@ -20,3 +20,45 @@ and open the template in the editor.
 .links > li:last-child {
   margin-right: 0px;
 }
+
+.pane-menu-schemax-base-menu .menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.pane-menu-schemax-base-menu .menu > li {
+  display: block;
+  float: left;
+}
+.pane-menu-schemax-base-menu .menu > li:last-child {
+  margin-right: 0px;
+}
+
+.pane-menu-schemax-sports-menu .menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.pane-menu-schemax-sports-menu .menu > li {
+  display: block;
+  float: left;
+}
+.pane-menu-schemax-sports-menu .menu > li:last-child {
+  margin-right: 0px;
+}
+
+.pane-menu-schemax-team-menu .menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.pane-menu-schemax-team-menu .menu > li {
+  display: block;
+  float: left;
+}
+.pane-menu-schemax-team-menu .menu > li:last-child {
+  margin-right: 0px;
+}

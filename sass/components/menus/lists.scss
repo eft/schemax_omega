@@ -25,3 +25,15 @@ and open the template in the editor.
 .links {
   @include navigation-list;
 }
+
+.pane-menu-schemax-base-menu .menu{
+  @include navigation-list;
+}
+
+.pane-menu-schemax-sports-menu .menu {
+  @include navigation-list;
+}
+
+.pane-menu-schemax-team-menu .menu {
+  @include navigation-list;
+}

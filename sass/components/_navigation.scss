@@ -1,7 +1,7 @@
 /**
  * $NAV-BAR
  */
-.pane-page-primary-links {
+.pane-menu-schemax-sports-menu {
 
   background-color: #000;
 
@@ -33,11 +33,39 @@
 }
 
 /**
+ * $SECONDARY-LINKS
+ */
+.pane-menu-schemax-base-menu {
+
+  float:right;
+
+  a {
+    display: block;
+    padding: 1em 0.8em;
+
+    @include font-size(11px);
+    text-transform: uppercase;
+    text-decoration: none;
+    //font-weight: 900;
+    color: #000;
+
+    &:hover,
+      &:focus {
+      color: $dark-blue;
+    }
+  }
+}
+
+/**
  * $TEAM-NAV
  */
-.pane-menu-menu-team-menu {
+.pane-menu-schemax-team-menu {
 
   background-color: #333;
+
+  .active {
+      border-bottom:#fff solid 2px;
+    }
 
   a {
     display: block;
@@ -63,22 +91,6 @@
     li:last-child a {
       border-right: 1px solid #fff;
     }
-  }
-
-  .menu {
-    list-style-type:none;
-    padding:1px;
-    margin:0;
-    overflow:hidden;
-    > li{
-      display:block;
-      float:left;
-      &:last-child{
-        margin-right:0px;
-      }
-    }
-
-
   }
 }
 
