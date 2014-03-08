@@ -26,7 +26,7 @@ and open the template in the editor.
   @include navigation-list;
 }
 
-.pane-menu-schemax-base-menu .menu{
+.pane-menu-schemax-user-menu .menu{
   @include navigation-list;
 }
 
@@ -35,5 +35,9 @@ and open the template in the editor.
 }
 
 .pane-menu-schemax-team-menu .menu {
+  @include navigation-list;
+}
+
+.pane-node-create-links ul {
   @include navigation-list;
 }

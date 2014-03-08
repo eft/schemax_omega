@@ -286,10 +286,7 @@ mark,
 /**
  * $SECONDARY-LINKS
  */
-.pane-menu-schemax-base-menu {
-  float: right;
-}
-.pane-menu-schemax-base-menu a {
+.pane-menu-schemax-user-menu a {
   display: block;
   padding: 1em 0.8em;
   font-size: 11px;
@@ -298,7 +295,7 @@ mark,
   text-decoration: none;
   color: #000;
 }
-.pane-menu-schemax-base-menu a:hover, .pane-menu-schemax-base-menu a:focus {
+.pane-menu-schemax-user-menu a:hover, .pane-menu-schemax-user-menu a:focus {
   color: #064771;
 }
 
@@ -306,6 +303,7 @@ mark,
  * $TEAM-NAV
  */
 .pane-menu-schemax-team-menu {
+  padding: 2px 5px;
   background-color: #333;
 }
 .pane-menu-schemax-team-menu .active {
@@ -333,6 +331,27 @@ mark,
   border-right: 1px solid #fff;
 }
 
+.pane-node-create-links a {
+  display: block;
+  padding-left: 10px;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+.pane-node-create-links a:hover, .pane-node-create-links a:focus {
+  color: #064771;
+}
+
+.pane-node-create-links h2.pane-title {
+  display: block;
+  float: left;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  color: #999;
+}
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -356,17 +375,17 @@ and open the template in the editor.
   margin-right: 0px;
 }
 
-.pane-menu-schemax-base-menu .menu {
+.pane-menu-schemax-user-menu .menu {
   list-style-type: none;
   padding: 0;
   margin: 0;
   overflow: hidden;
 }
-.pane-menu-schemax-base-menu .menu > li {
+.pane-menu-schemax-user-menu .menu > li {
   display: block;
   float: left;
 }
-.pane-menu-schemax-base-menu .menu > li:last-child {
+.pane-menu-schemax-user-menu .menu > li:last-child {
   margin-right: 0px;
 }
 
@@ -395,6 +414,20 @@ and open the template in the editor.
   float: left;
 }
 .pane-menu-schemax-team-menu .menu > li:last-child {
+  margin-right: 0px;
+}
+
+.pane-node-create-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.pane-node-create-links ul > li {
+  display: block;
+  float: left;
+}
+.pane-node-create-links ul > li:last-child {
   margin-right: 0px;
 }
 

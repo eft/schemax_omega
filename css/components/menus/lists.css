@@ -21,17 +21,17 @@ and open the template in the editor.
   margin-right: 0px;
 }
 
-.pane-menu-schemax-base-menu .menu {
+.pane-menu-schemax-user-menu .menu {
   list-style-type: none;
   padding: 0;
   margin: 0;
   overflow: hidden;
 }
-.pane-menu-schemax-base-menu .menu > li {
+.pane-menu-schemax-user-menu .menu > li {
   display: block;
   float: left;
 }
-.pane-menu-schemax-base-menu .menu > li:last-child {
+.pane-menu-schemax-user-menu .menu > li:last-child {
   margin-right: 0px;
 }
 
@@ -60,5 +60,19 @@ and open the template in the editor.
   float: left;
 }
 .pane-menu-schemax-team-menu .menu > li:last-child {
+  margin-right: 0px;
+}
+
+.pane-node-create-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.pane-node-create-links ul > li {
+  display: block;
+  float: left;
+}
+.pane-node-create-links ul > li:last-child {
   margin-right: 0px;
 }
