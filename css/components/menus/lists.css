@@ -22,6 +22,8 @@ and open the template in the editor.
 }
 
 .pane-menu-schemax-user-menu .menu {
+  float: right;
+  vertical-align: bottom;
   list-style-type: none;
   padding: 0;
   margin: 0;

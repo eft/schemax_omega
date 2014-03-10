@@ -59,7 +59,7 @@
 
   /* Content Area */
   .l-content {
-    @include grid-span(2, 1);
+    @include grid-span(1, 1);
   }
 }
 
@@ -69,7 +69,19 @@
     @include pie-clearfix;
   }
   .l-branding {
-    @include grid-span(1, 1);
+    @include grid-span(12, 1);
+
+    .pane-page-logo{
+      @include isolation-span(3, 1, left);
+    }
+    .pane-page-site-name{
+      @include isolation-span(3, 4);
+      font-size: 30px;
+    }
+    .pane-menu-schemax-user-menu{
+      @include isolation-span(6, 7, right);
+    }
+
   }
   .l-region--header {
     @include grid-span(1, 1);
@@ -80,7 +92,7 @@
 
   /* Content Area */
   .l-content {
-    @include grid-span(1, 1);
+    @include grid-span(12, 1);
   }
 }
 

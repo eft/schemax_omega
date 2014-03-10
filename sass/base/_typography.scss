@@ -18,6 +18,7 @@ html {
  */
 a {
   @include link-colors($orange, #000, $pale-orange, $orange, #000);
+  @include hover-link;
 }
 
 /**

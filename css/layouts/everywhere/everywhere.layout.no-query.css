@@ -45,12 +45,34 @@
   margin-right: 0;
   clear: none;
 }
-
-.l-region--header {
-  width: 100%;
+.l-branding .pane-page-logo {
+  width: 23.40426%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: left;
+}
+.l-branding .pane-page-site-name {
+  width: 23.40426%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 25.53191%;
+  clear: none;
+  font-size: 30px;
+}
+.l-branding .pane-menu-schemax-user-menu {
+  width: 48.93617%;
   float: right;
   margin-left: 0;
   margin-right: 0;
+  clear: right;
+}
+
+.l-region--header {
+  width: 6.38298%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
   clear: none;
 }
 

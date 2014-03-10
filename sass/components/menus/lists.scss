@@ -27,7 +27,10 @@ and open the template in the editor.
 }
 
 .pane-menu-schemax-user-menu .menu{
+  float: right;
+  vertical-align: bottom;
   @include navigation-list;
+
 }
 
 .pane-menu-schemax-sports-menu .menu {
