@@ -53,15 +53,15 @@
   clear: left;
 }
 .l-branding .pane-page-site-name {
-  width: 23.40426%;
+  width: 40.42553%;
   float: left;
   margin-right: -100%;
   margin-left: 25.53191%;
   clear: none;
-  font-size: 30px;
 }
-.l-branding .pane-menu-schemax-user-menu {
-  width: 48.93617%;
+.l-branding .pane-menu-schemax-user-menu,
+.l-branding .pane-schemax-user-teams-panel-pane-my-teams-short {
+  width: 31.91489%;
   float: right;
   margin-left: 0;
   margin-right: 0;

@@ -113,11 +113,32 @@
 
 }
 
+.pane-schemax-user-teams-panel-pane-my-teams-short {
+
+  a {
+    display: block;
+    padding: 0.3em 0.2em;
+
+    @include font-size(11px);
+    text-transform: uppercase;
+    text-decoration: none;
+    //font-weight: 900;
+    color: #000;
+
+    &:hover,
+      &:focus {
+      color: $dark-blue;
+    }
+  }
+}
+
 .pane-node-create-links h2.pane-title {
   display: block;
-  //float :left;
 
   @include font-size(12px);
   color: #999;
+}
 
+.pane-page-site-name {
+  padding: 1em;
 }

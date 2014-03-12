@@ -9,17 +9,17 @@ and open the template in the editor.
 */
 
 @mixin navigation-list {
-    list-style-type:none;
-    padding:0;
-    margin:0;
-    overflow:hidden;
-    > li{
-        display:block;
-        float:left;
-        &:last-child{
-            margin-right:0px;
-        }
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  > li{
+    display:block;
+    float:left;
+    &:last-child{
+      margin-right:0px;
     }
+  }
 }
 
 .links {
@@ -28,7 +28,7 @@ and open the template in the editor.
 
 .pane-menu-schemax-user-menu .menu{
   float: right;
-  vertical-align: bottom;
+  //vertical-align: bottom;
   @include navigation-list;
 
 }
@@ -44,3 +44,18 @@ and open the template in the editor.
 .pane-node-create-links ul {
   @include navigation-list;
 }
+
+.pane-schemax-user-teams-panel-pane-my-teams-short {
+
+  .view-schemax-user-teams {
+    display: inline-block;
+    float:right;
+
+    .view-header,
+    .view-content{
+      display: inline-block;
+    }
+  }
+}
+
+

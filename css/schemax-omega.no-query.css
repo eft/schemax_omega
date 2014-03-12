@@ -35,6 +35,10 @@
 /**
  * $SITE-BRANDING
  */
+.l-branding .pane-page-site-name {
+  font-size: 30px;
+}
+
 /*.l-branding {
   padding: 1em 0;
   @include clearfix(true);
@@ -45,6 +49,8 @@
   display: block;
   float: left;
 }
+
+      font-size: 30px;
 
 .l-branding #site-name {
   padding: 0.5em;
@@ -348,11 +354,28 @@ mark,
   color: #064771;
 }
 
+.pane-schemax-user-teams-panel-pane-my-teams-short a {
+  display: block;
+  padding: 0.3em 0.2em;
+  font-size: 11px;
+  font-size: 0.78571rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+.pane-schemax-user-teams-panel-pane-my-teams-short a:hover, .pane-schemax-user-teams-panel-pane-my-teams-short a:focus {
+  color: #064771;
+}
+
 .pane-node-create-links h2.pane-title {
   display: block;
   font-size: 12px;
   font-size: 0.85714rem;
   color: #999;
+}
+
+.pane-page-site-name {
+  padding: 1em;
 }
 
 /*
@@ -380,7 +403,6 @@ and open the template in the editor.
 
 .pane-menu-schemax-user-menu .menu {
   float: right;
-  vertical-align: bottom;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -434,6 +456,15 @@ and open the template in the editor.
 }
 .pane-node-create-links ul > li:last-child {
   margin-right: 0px;
+}
+
+.pane-schemax-user-teams-panel-pane-my-teams-short .view-schemax-user-teams {
+  display: inline-block;
+  float: right;
+}
+.pane-schemax-user-teams-panel-pane-my-teams-short .view-schemax-user-teams .view-header,
+.pane-schemax-user-teams-panel-pane-my-teams-short .view-schemax-user-teams .view-content {
+  display: inline-block;
 }
 
 /**

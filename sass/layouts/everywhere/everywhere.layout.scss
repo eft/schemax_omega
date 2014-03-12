@@ -2,6 +2,8 @@
 @import "compass";
 @import "breakpoint";
 @import "singularitygs";
+
+
 //@import "toolkit-no-css";
 
 // Import variables, abstractions, base styles and components using globbing.
@@ -49,6 +51,18 @@
   /* Header Area */
   .l-branding {
     @include grid-span(1, 1);
+
+    .pane-page-logo{
+    @include grid-span(1, 1);
+    }
+    .pane-page-site-name{
+    @include grid-span(1, 1);
+    }
+    .pane-menu-schemax-user-menu,
+    .pane-schemax-user-teams-panel-pane-my-teams-short {
+    @include grid-span(1, 1);
+    }
+
   }
   .l-region--header {
     @include grid-span(1, 1);
@@ -75,11 +89,11 @@
       @include isolation-span(3, 1, left);
     }
     .pane-page-site-name{
-      @include isolation-span(3, 4);
-      font-size: 30px;
+      @include isolation-span(5, 4);
     }
-    .pane-menu-schemax-user-menu{
-      @include isolation-span(6, 7, right);
+    .pane-menu-schemax-user-menu,
+    .pane-schemax-user-teams-panel-pane-my-teams-short {
+      @include isolation-span(4, 9, right);
     }
 
   }
