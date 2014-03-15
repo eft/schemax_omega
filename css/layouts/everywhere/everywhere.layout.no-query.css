@@ -4,6 +4,44 @@
   margin: 0 auto;
 }
 
+.l-branding {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+.l-branding .pane-page-logo {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+.l-branding .pane-page-site-name {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+.l-branding .pane-menu-schemax-user-menu,
+.l-branding .pane-schemax-user-teams-panel-pane-my-teams-short {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
+.l-region--navigation {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
 /*
 .l-header {
   background-color: $light-blue;
@@ -12,10 +50,6 @@
   background-color: $mid-grey;
 }
 */
-.l-footer {
-  background-color: #000;
-}
-
 .l-header,
 .l-main {
   *zoom: 1;

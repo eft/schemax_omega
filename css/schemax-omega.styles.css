@@ -288,7 +288,7 @@ mark,
   background-color: #000;
 }
 .pane-menu-schemax-sports-menu a:hover, .pane-menu-schemax-sports-menu a:focus {
-  color: #064771;
+  color: #e4621c;
 }
 @media (min-width: 1024) {
   .pane-menu-schemax-sports-menu a {
@@ -314,7 +314,7 @@ mark,
   color: #000;
 }
 .pane-menu-schemax-user-menu a:hover, .pane-menu-schemax-user-menu a:focus {
-  color: #064771;
+  color: #e4621c;
 }
 
 /**
@@ -338,7 +338,7 @@ mark,
   background-color: #333;
 }
 .pane-menu-schemax-team-menu a:hover, .pane-menu-schemax-team-menu a:focus {
-  color: #064771;
+  color: #e4621c;
 }
 @media (min-width: 1024) {
   .pane-menu-schemax-team-menu a {
@@ -361,7 +361,7 @@ mark,
   color: #000;
 }
 .pane-node-create-links a:hover, .pane-node-create-links a:focus {
-  color: #064771;
+  color: #e4621c;
 }
 
 .pane-schemax-user-teams-panel-pane-my-teams-short a {
@@ -374,7 +374,7 @@ mark,
   color: #000;
 }
 .pane-schemax-user-teams-panel-pane-my-teams-short a:hover, .pane-schemax-user-teams-panel-pane-my-teams-short a:focus {
-  color: #064771;
+  color: #e4621c;
 }
 
 .pane-node-create-links h2.pane-title {
@@ -760,7 +760,7 @@ head:hover ~ body .l-page::after {
   background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 100%);
   background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 100%);
 }
-@media (min-width: 1250px) {
+@media (min-width: 700px) {
   head:hover ~ .l-page::after,
   head:hover ~ body .l-page::after {
     background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(6.38298%, rgba(210, 105, 30, 0.5)), color-stop(6.38298%, rgba(210, 105, 30, 0.25)), color-stop(8.51064%, rgba(210, 105, 30, 0.25)), color-stop(8.51064%, rgba(210, 105, 30, 0.5)), color-stop(14.89362%, rgba(210, 105, 30, 0.5)), color-stop(14.89362%, rgba(210, 105, 30, 0.25)), color-stop(17.02128%, rgba(210, 105, 30, 0.25)), color-stop(17.02128%, rgba(210, 105, 30, 0.5)), color-stop(23.40426%, rgba(210, 105, 30, 0.5)), color-stop(23.40426%, rgba(210, 105, 30, 0.25)), color-stop(25.53191%, rgba(210, 105, 30, 0.25)), color-stop(25.53191%, rgba(210, 105, 30, 0.5)), color-stop(31.91489%, rgba(210, 105, 30, 0.5)), color-stop(31.91489%, rgba(210, 105, 30, 0.25)), color-stop(34.04255%, rgba(210, 105, 30, 0.25)), color-stop(34.04255%, rgba(210, 105, 30, 0.5)), color-stop(40.42553%, rgba(210, 105, 30, 0.5)), color-stop(40.42553%, rgba(210, 105, 30, 0.25)), color-stop(42.55319%, rgba(210, 105, 30, 0.25)), color-stop(42.55319%, rgba(210, 105, 30, 0.5)), color-stop(48.93617%, rgba(210, 105, 30, 0.5)), color-stop(48.93617%, rgba(210, 105, 30, 0.25)), color-stop(51.06383%, rgba(210, 105, 30, 0.25)), color-stop(51.06383%, rgba(210, 105, 30, 0.5)), color-stop(57.44681%, rgba(210, 105, 30, 0.5)), color-stop(57.44681%, rgba(210, 105, 30, 0.25)), color-stop(59.57447%, rgba(210, 105, 30, 0.25)), color-stop(59.57447%, rgba(210, 105, 30, 0.5)), color-stop(65.95745%, rgba(210, 105, 30, 0.5)), color-stop(65.95745%, rgba(210, 105, 30, 0.25)), color-stop(68.08511%, rgba(210, 105, 30, 0.25)), color-stop(68.08511%, rgba(210, 105, 30, 0.5)), color-stop(74.46809%, rgba(210, 105, 30, 0.5)), color-stop(74.46809%, rgba(210, 105, 30, 0.25)), color-stop(76.59574%, rgba(210, 105, 30, 0.25)), color-stop(76.59574%, rgba(210, 105, 30, 0.5)), color-stop(82.97872%, rgba(210, 105, 30, 0.5)), color-stop(82.97872%, rgba(210, 105, 30, 0.25)), color-stop(85.10638%, rgba(210, 105, 30, 0.25)), color-stop(85.10638%, rgba(210, 105, 30, 0.5)), color-stop(91.48936%, rgba(210, 105, 30, 0.5)), color-stop(91.48936%, rgba(210, 105, 30, 0.25)), color-stop(93.61702%, rgba(210, 105, 30, 0.25)), color-stop(93.61702%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)));

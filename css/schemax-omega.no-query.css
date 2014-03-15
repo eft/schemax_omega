@@ -282,7 +282,7 @@ mark,
   background-color: #000;
 }
 .pane-menu-schemax-sports-menu a:hover, .pane-menu-schemax-sports-menu a:focus {
-  color: #064771;
+  color: #e4621c;
 }
 .pane-menu-schemax-sports-menu a {
   font-size: 18px;
@@ -306,7 +306,7 @@ mark,
   color: #000;
 }
 .pane-menu-schemax-user-menu a:hover, .pane-menu-schemax-user-menu a:focus {
-  color: #064771;
+  color: #e4621c;
 }
 
 /**
@@ -330,7 +330,7 @@ mark,
   background-color: #333;
 }
 .pane-menu-schemax-team-menu a:hover, .pane-menu-schemax-team-menu a:focus {
-  color: #064771;
+  color: #e4621c;
 }
 .pane-menu-schemax-team-menu a {
   font-size: 12px;
@@ -351,7 +351,7 @@ mark,
   color: #000;
 }
 .pane-node-create-links a:hover, .pane-node-create-links a:focus {
-  color: #064771;
+  color: #e4621c;
 }
 
 .pane-schemax-user-teams-panel-pane-my-teams-short a {
@@ -364,7 +364,7 @@ mark,
   color: #000;
 }
 .pane-schemax-user-teams-panel-pane-my-teams-short a:hover, .pane-schemax-user-teams-panel-pane-my-teams-short a:focus {
-  color: #064771;
+  color: #e4621c;
 }
 
 .pane-node-create-links h2.pane-title {

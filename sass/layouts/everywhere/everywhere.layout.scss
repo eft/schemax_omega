@@ -29,6 +29,27 @@
   margin: 0 auto;
 }
 
+.l-branding {
+  @include grid-span(1, 1);
+
+  .pane-page-logo{
+  @include grid-span(1, 1);
+  }
+  .pane-page-site-name{
+      @include grid-span(1, 1);
+  }
+  .pane-menu-schemax-user-menu,
+  .pane-schemax-user-teams-panel-pane-my-teams-short {
+      @include grid-span(1, 1);
+  }
+
+}
+
+.l-region--navigation {
+   @include grid-span(1, 1);
+}
+
+
 /*
 .l-header {
   background-color: $light-blue;
@@ -38,7 +59,7 @@
 }
 */
 .l-footer {
-  background-color: #000;
+  //background-color: #000;
 }
 
 .l-header,
@@ -50,20 +71,21 @@
 @include breakpoint($tab) {
   /* Header Area */
   .l-branding {
-    @include grid-span(1, 1);
+    @include grid-span(12, 1);
 
     .pane-page-logo{
-    @include grid-span(1, 1);
+      @include isolation-span(3, 1, left);
     }
     .pane-page-site-name{
-    @include grid-span(1, 1);
+      @include isolation-span(5, 4);
     }
     .pane-menu-schemax-user-menu,
     .pane-schemax-user-teams-panel-pane-my-teams-short {
-    @include grid-span(1, 1);
+      @include isolation-span(4, 9, right);
     }
 
   }
+
   .l-region--header {
     @include grid-span(1, 1);
   }
@@ -73,7 +95,7 @@
 
   /* Content Area */
   .l-content {
-    @include grid-span(1, 1);
+    @include grid-span(12, 1);
   }
 }
 
