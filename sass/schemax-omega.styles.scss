@@ -21,4 +21,6 @@
 @import "base/**/*";
 @import "components/**/*";
 
-@include grid-overlay('.l-page');
+
+// Add a grid overlay that shows where the grids and gutters are
+//@include grid-overlay('.l-page');
