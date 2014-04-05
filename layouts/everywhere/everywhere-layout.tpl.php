@@ -2,7 +2,8 @@
 
 /**
  * @file
- * Default theme implementation to display a single Drupal page.
+ * Page layout template.  Based on default Omega page.tpl.php file.
+ *
  *
  * Available variables:
  *
@@ -70,7 +71,7 @@
  * @see omega_preprocess_page()
  */
 ?>
-<div class="l-page">
+<div<?php print $attributes; ?>>
   <header class="l-header" role="banner">
     <div class="l-branding">
       <?php if ($logo): ?>
@@ -115,6 +116,9 @@
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </div>
+
+    <?php print render($page['sidebar_first']); ?>
+    <?php print render($page['sidebar_second']); ?>
 
   </div>
 

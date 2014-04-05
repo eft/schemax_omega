@@ -36,7 +36,8 @@
   @include grid-span(1, 1);
   }
   .pane-page-site-name{
-      @include grid-span(1, 1);
+    @include grid-span(1, 1);
+    background-color: $yellow;
   }
   .pane-menu-schemax-user-menu,
   .pane-schemax-user-teams-panel-pane-my-teams-short {
@@ -78,6 +79,7 @@
     }
     .pane-page-site-name{
       @include isolation-span(5, 4);
+      background-color: red;
     }
     .pane-menu-schemax-user-menu,
     .pane-schemax-user-teams-panel-pane-my-teams-short {
@@ -112,6 +114,7 @@
     }
     .pane-page-site-name{
       @include isolation-span(5, 4);
+      background-color: $pale-orange;
     }
     .pane-menu-schemax-user-menu,
     .pane-schemax-user-teams-panel-pane-my-teams-short {
@@ -126,9 +129,28 @@
     clear: both;
   }
 
-  /* Content Area */
-  .l-content {
-    @include grid-span(12, 1);
+    /* Sidebars */
+  .has-one-sidebar {
+    .l-content {
+      @include grid-span(8, 1);
+    }
+    .l-region--sidebar-first {
+      @include grid-span(4, 9);
+      clear: none;
+    }
+  }
+  .has-two-sidebars {
+    .l-content {
+      @include grid-span(6, 1);
+    }
+    .l-region--sidebar-first,
+    .l-region--sidebar-second {
+      @include grid-span(3, 7);
+      clear: none;
+    }
+    .l-region--sidebar-second {
+      @include grid-span(3, 10);
+    }
   }
 }
 

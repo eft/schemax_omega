@@ -17,8 +17,9 @@ html {
  * $LINKS
  */
 a {
-  @include link-colors($orange, #000, $pale-orange, $orange, #000);
+  @include link-colors(#000, $bbc-blue, #000, #000,$bbc-blue);
   @include hover-link;
+  font-weight: 300;
 }
 
 /**
@@ -31,7 +32,7 @@ h4, .delta,
 h5, .epsilon,
 h6, .zeta {
   @include rhythm(0, 0, 0, 0.2);;
-  color: darken($mid-grey, 15%);
+  color: lighten($black, 15%);
   font-family: $maven-pro;
   text-transform: uppercase;
 
@@ -41,7 +42,8 @@ h6, .zeta {
     text-decoration: none;
   }
   a:hover {
-    color: $dark-blue;
+    color: $bbc-blue;
+    text-decoration: none;
   }
 }
 
@@ -53,7 +55,7 @@ h1, .alpha {
 h2, .beta {
   @include font-size(26px);
   font-weight: 700;
-  color: $mid-blue;
+  //color: $black;
 }
 h3, .gamma {
   @include font-size(21px);
@@ -67,7 +69,7 @@ h5, .epsilon{
 }
 h6, .zeta {
   @include font-size(16px);
-  color: $mid-blue;
+  //color: $black;
 }
 
 /**
