@@ -33,10 +33,9 @@
   @include grid-span(1, 1);
 
   .pane-page-logo{
-  @include grid-span(1, 1);
+    float:left;
   }
   .pane-page-site-name{
-    @include grid-span(1, 1);
     background-color: $yellow;
   }
   .pane-menu-schemax-user-menu,
@@ -75,15 +74,15 @@
     @include grid-span(12, 1);
 
     .pane-page-logo{
-      @include isolation-span(3, 1, left);
+      @include isolation-span(2, 1, left);
     }
     .pane-page-site-name{
-      @include isolation-span(5, 4);
+      @include isolation-span(7, 3);
       background-color: red;
     }
     .pane-menu-schemax-user-menu,
     .pane-schemax-user-teams-panel-pane-my-teams-short {
-      @include isolation-span(4, 9, right);
+      @include isolation-span(3, 10, right);
     }
 
   }

@@ -3,34 +3,37 @@
  */
 
 .l-branding {
-   .pane-page-site-name{
-      font-size: 30px;
-   }
-}
 
-/*.l-branding {
-  padding: 1em 0;
-  @include clearfix(true);
-}
-
-.l-branding #site-name,
-.l-branding #logo {
-  display: block;
-  float: left;
-}
-
-      font-size: 30px;
-
-.l-branding #site-name {
-  padding: 0.5em;
-}
-
-.l-branding #logo img {
-  max-height: 2em;
-  @include breakpoint($tab){
-    max-height: 4em;
+  .pane-page-site-name{
+    @include font-size(18px);
   }
-}*/
+  .pane-page-logo img{
+    width: 50px;
+    margin-right: $horz-spacing-unit;
+  }
 
+  @include breakpoint($tab) {
 
+    .pane-page-site-name{
+      @include font-size(24px);
+    }
+    .pane-page-logo img{
+      width: 75px;
+      margin-right: $horz-spacing-unit;
+    }
+
+  }
+
+  @include breakpoint($desk) {
+
+    .pane-page-site-name{
+      @include font-size(32px);
+    }
+    .pane-page-logo img{
+      width: 100px;
+      margin-right: $horz-spacing-unit;
+    }
+
+  }
+}
 

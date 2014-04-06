@@ -39,7 +39,10 @@
 
   a {
     display: block;
-    padding: 1em 0.8em;
+    padding: 0.5em 0.4em;
+    @include breakpoint($tab){
+       padding: 1em 0.8em;
+    }
 
     @include font-size(11px);
     text-transform: uppercase;
@@ -49,7 +52,7 @@
 
     &:hover,
       &:focus {
-      color: $orange;
+      color: $bbc-blue;
     }
   }
 }
@@ -78,7 +81,7 @@
 
     &:hover,
       &:focus {
-      color: $orange;
+      color: $bbc-blue;
     }
   }
 
@@ -107,7 +110,7 @@
 
     &:hover,
       &:focus {
-      color: $orange;
+      color: $bbc-blue;
     }
   }
 
@@ -127,7 +130,7 @@
 
     &:hover,
       &:focus {
-      color: $orange;
+      color: $bbc-blue;
     }
   }
 }
