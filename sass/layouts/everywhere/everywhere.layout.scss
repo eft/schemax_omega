@@ -36,7 +36,7 @@
     float:left;
   }
   .pane-page-site-name{
-    background-color: $yellow;
+
   }
   .pane-menu-schemax-user-menu,
   .pane-schemax-user-teams-panel-pane-my-teams-short {
@@ -78,7 +78,6 @@
     }
     .pane-page-site-name{
       @include isolation-span(7, 3);
-      background-color: red;
     }
     .pane-menu-schemax-user-menu,
     .pane-schemax-user-teams-panel-pane-my-teams-short {
@@ -113,7 +112,6 @@
     }
     .pane-page-site-name{
       @include isolation-span(5, 4);
-      background-color: $pale-orange;
     }
     .pane-menu-schemax-user-menu,
     .pane-schemax-user-teams-panel-pane-my-teams-short {

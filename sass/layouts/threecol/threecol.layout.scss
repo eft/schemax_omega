@@ -1,0 +1,44 @@
+/*******************************************************************************
+ * threecol.layout.scss
+ *
+ * Styling of the "threecol" panels content layout.
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+// Set consistent vertical and horizontal spacing units.
+$vert-spacing-unit: 20px;
+$horz-spacing-unit: 1em;
+
+// Set breakpoint values.
+$tab  : 700px;
+$desk : 1250px;
+
+// Set Singularity grid variables.
+$grids: 3;
+$grids: add-grid(2 2 1 at $desk);
+
+$gutters: 1/5;
+
+
+
+@include breakpoint($tab) {
+
+}
+
+@include breakpoint($desk, true) {
+
+  .panel-col-first{
+    @include grid-span(1, 1);
+  }
+
+  .panel-col {
+    @include grid-span(1, 2);
+  }
+
+  .panel-col-last {
+    @include grid-span(1, 3);
+  }
+
+}

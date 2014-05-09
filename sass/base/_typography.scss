@@ -17,7 +17,7 @@ html {
  * $LINKS
  */
 a {
-  @include link-colors(#000, $bbc-blue, #000, #000,$bbc-blue);
+  @include link-colors(#000, $lfc-green, #000, #000,$lfc-green);
   @include hover-link;
   font-weight: 300;
 }
@@ -42,7 +42,7 @@ h6, .zeta {
     text-decoration: none;
   }
   a:hover {
-    color: $bbc-blue;
+    color: $lfc-green;
     text-decoration: none;
   }
 }

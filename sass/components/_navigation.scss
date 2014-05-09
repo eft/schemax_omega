@@ -3,7 +3,7 @@
  */
 .pane-menu-schemax-sports-menu {
 
-  background-color: #000;
+  background-color: $lfc-green;
 
   a {
     display: block;
@@ -13,7 +13,7 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    background-color: #000;
+    background-color: $lfc-green;
 
     &:hover,
       &:focus {
@@ -52,7 +52,7 @@
 
     &:hover,
       &:focus {
-      color: $bbc-blue;
+      color: $lfc-green;
     }
   }
 }
@@ -81,7 +81,7 @@
 
     &:hover,
       &:focus {
-      color: $bbc-blue;
+      color: $lfc-green;
     }
   }
 
@@ -110,7 +110,7 @@
 
     &:hover,
       &:focus {
-      color: $bbc-blue;
+      color: $lfc-green;
     }
   }
 
@@ -130,7 +130,7 @@
 
     &:hover,
       &:focus {
-      color: $bbc-blue;
+      color: $lfc-green;
     }
   }
 }
