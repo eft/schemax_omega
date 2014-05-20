@@ -1,0 +1,10 @@
+/**
+ * $LINKS
+ *
+ */
+
+.openlayers-tooltip-name a {
+  @include link-colors(#fff, $light-hard-green, #fff, #fff,$light-hard-green);
+  @include hover-link;
+  font-weight: 300;
+}

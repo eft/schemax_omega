@@ -75,14 +75,20 @@ h6, .zeta {
 /**
  * $BRANDING
  */
-#site-name {
+.pane-page-site-name
+ {
   @extend .alpha;
   @include font-size(18px);
   font-weight: 700;
+  text-transform: uppercase;
 
   @include breakpoint($tab){
     @include font-size(32px);
   }
+  @include breakpoint($desk){
+    @include font-size(48px);
+  }
+
 }
 
 /**
